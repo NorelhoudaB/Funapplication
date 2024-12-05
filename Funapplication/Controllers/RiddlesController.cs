@@ -64,29 +64,6 @@ namespace Funapplication.Controllers
             return View(riddle);
         }
 
-        //// GET: Riddles/Create
-        //[Authorize]
-        //public IActionResult Create()
-        //{
-        //    return View();
-        //}
-
-        // POST: Riddles/Create
-        // To protect from overposting attacks, enable the specific properties you want to bind to.
-        // For more details, see http://go.microsoft.com/fwlink/?LinkId=317598.
-        //[Authorize]
-        //[HttpPost]
-        //[ValidateAntiForgeryToken]
-        //public async Task<IActionResult> Create([Bind("Id,RiddleQuestion,RiddleAnswer,Category")] Riddle riddle)
-        //{
-        //    if (ModelState.IsValid)
-        //    {
-        //        _context.Add(riddle);
-        //        await _context.SaveChangesAsync();
-        //        return RedirectToAction(nameof(Index));
-        //    }
-        //    return View(riddle);
-        //}
 
 
         // GET: Riddles/Create
